@@ -16,7 +16,7 @@ First, make sure that your Wii is connected to the same network as your computer
 
 # Running on Windows:
 
-Run the .exe provided [on the releases page](https://github.com/RiiConnect24/RiiConnect24-DNS-Server/releases). If your antivirus notifies you about the .exe file, allow it and run it. If it doesn't work, you should also allow communication for this this .exe in your firewall settings.
+Run the .exe provided [on the releases page](https://github.com/Mythra/DNS-Server/releases). If your antivirus notifies you about the .exe file, allow it and run it. If it doesn't work, you should also allow communication for this this .exe in your firewall settings.
 
 # Running on Linux/macOS:
 
