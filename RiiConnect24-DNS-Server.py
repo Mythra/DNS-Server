@@ -48,7 +48,7 @@ SERIAL = int((datetime.utcnow() - EPOCH).total_seconds())
 MY_IP = get_ip()
 
 print("+===============================+")
-print("|    RiiConnect24 DNS Server    |")
+print("|    RiiConnect24 DNS Fork      |")
 print("|          Version " + RIICONNECT24DNSSERVER_VERSION + "          |")
 print("+===============================+\n")
 
@@ -155,7 +155,7 @@ class Record:
 ZONES = {}
 
 try:
-  get_zones = requests.get("https://raw.githubusercontent.com/RiiConnect24/DNS-Server/master/dns_zones.json")
+  get_zones = requests.get("https://raw.githubusercontent.com/Mythra/DNS-Server/master/dns_zones.json")
 except requests.exceptions.Timeout:
   print("[ERROR] Couldn't load DNS data: connection to GitHub timed out.")
   print("[ERROR] Are you connected to the Internet?")
