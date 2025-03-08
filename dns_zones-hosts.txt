@@ -25,7 +25,7 @@
 167.235.229.36 miicontest.wapp.wii.com
 167.235.229.36 miicontestp.wapp.wii.com
 152.70.198.159 ms.nintendo-europe.com
-178.62.43.212 nas.nintendowifi.net
+104.248.0.110 nas.nintendowifi.net
 78.46.231.155 naswii.nintendowifi.net
 95.217.77.151 natneg1.gs.nintendowifi.net
 188.34.177.217 natneg2.gs.nintendowifi.net
