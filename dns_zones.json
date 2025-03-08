@@ -7,12 +7,12 @@
    {
       "type":"a",
       "name":"axing.nintendowifi.net",
-      "value":"167.86.108.126"
+      "value":"152.70.198.159"
    },
    {
       "type":"a",
       "name":"cfh.wapp.wii.com",
-      "value":"167.86.108.126"
+      "value":"167.235.229.36"
    },
    {
       "type":"a",
@@ -37,17 +37,17 @@
    {
       "type":"a",
       "name":"ente.wapp.wii.com",
-      "value":"167.86.108.126"
+      "value":"167.235.229.36"
    },
    {
       "type":"a",
       "name":"entj.wapp.wii.com",
-      "value":"167.86.108.126"
+      "value":"167.235.229.36"
    },
    {
       "type":"a",
       "name":"entu.wapp.wii.com",
-      "value":"167.86.108.126"
+      "value":"167.235.229.36"
    },
    {
       "type":"a",
@@ -57,7 +57,7 @@
    {
       "type":"a",
       "name":"flipnote.hatena.com",
-      "value":"104.248.0.110"
+      "value":"178.62.43.212"
    },
    {
       "type":"a",
@@ -87,7 +87,7 @@
    {
       "type":"a",
       "name":"geckocodes.org",
-      "value":"167.86.108.126"
+      "value":"167.235.229.36"
    },
    {
       "type":"a",
@@ -107,12 +107,12 @@
    {
       "type":"a",
       "name":"maintenance.hatena.ne.jp",
-      "value":"104.248.0.110"
+      "value":"178.62.43.212"
    },
    {
       "type":"a",
       "name":"mariokartwii.race.gs.wiimmfi.de",
-      "value":"188.34.177.217"
+      "value":"78.46.231.155"
    },
    {
       "type":"a",
@@ -122,17 +122,17 @@
    {
       "type":"a",
       "name":"miicontest.wapp.wii.com",
-      "value":"167.86.108.126"
+      "value":"167.235.229.36"
    },
    {
       "type":"a",
       "name":"miicontestp.wapp.wii.com",
-      "value":"167.86.108.126"
+      "value":"167.235.229.36"
    },
    {
       "type":"a",
       "name":"ms.nintendo-europe.com",
-      "value":"167.86.108.126"
+      "value":"152.70.198.159"
    },
    {
       "type":"a",
@@ -142,7 +142,7 @@
    {
       "type":"a",
       "name":"naswii.nintendowifi.net",
-      "value":"95.217.77.151"
+      "value":"78.46.231.155"
    },
    {
       "type":"a",
@@ -152,12 +152,12 @@
    {
       "type":"a",
       "name":"natneg2.gs.nintendowifi.net",
-      "value":"94.130.8.215"
+      "value":"188.34.177.217"
    },
    {
       "type":"a",
       "name":"natneg3.gs.nintendowifi.net",
-      "value":"94.130.48.222"
+      "value":"78.46.231.155"
    },
    {
       "type":"a",
@@ -177,17 +177,12 @@
    {
       "type":"a",
       "name":"news.wapp.wii.com",
-      "value":"167.86.108.126"
-   },
-   {
-      "type":"a",
-      "name":"nplus.prod.silverbirchstudios.com",
-      "value":"195.201.236.139"
+      "value":"167.235.229.36"
    },
    {
       "type":"a",
       "name":"nwcs.wapp.wii.com",
-      "value":"167.86.108.126"
+      "value":"152.70.198.159"
    },
    {
       "type":"a",
@@ -202,6 +197,11 @@
    {
       "type":"a",
       "name":"peerchat.gs.nintendowifi.net",
+      "value":"195.201.236.139"
+   },
+   {
+      "type":"a",
+      "name":"pokemonplatds.peerchat.gs.nintendowifi.net",
       "value":"195.201.236.139"
    },
    {
@@ -222,12 +222,12 @@
    {
       "type":"a",
       "name":"rs.nintendo.com",
-      "value":"167.86.108.126"
+      "value":"152.70.198.159"
    },
    {
       "type":"a",
       "name":"sake.gamespy.com",
-      "value":"54.210.138.129"
+      "value":"78.46.231.155"
    },
    {
       "type":"a",
@@ -242,46 +242,46 @@
    {
       "type":"a",
       "name":"syscheck.softwii.de",
-      "value":"167.86.108.126"
+      "value":"152.70.198.159"
    },
    {
       "type":"a",
       "name":"ts.sudomemo.net",
-      "value":"67.227.185.125"
+      "value":"104.21.49.98"
    },
    {
       "type":"a",
       "name":"ugo.hatena.ne.jp",
-      "value":"104.248.0.110"
+      "value":"178.62.43.212"
    },
    {
       "type":"a",
       "name":"ugomemo.hatena.ne.jp",
-      "value":"104.248.0.110"
+      "value":"178.62.43.212"
    },
    {
       "type":"a",
       "name":"vt.wapp.wii.com",
-      "value":"167.86.108.126"
+      "value":"167.235.229.36"
    },
    {
       "type":"a",
       "name":"weather.wapp.wii.com",
-      "value":"167.86.108.126"
+      "value":"167.235.229.36"
    },
    {
       "type":"a",
       "name":"wii.nintendo.co.jp",
-      "value":"167.86.108.126"
+      "value":"152.70.198.159"
    },
    {
       "type":"a",
       "name":"wiirecommend.nintendo.com.au",
-      "value":"167.86.108.126"
+      "value":"152.70.198.159"
    },
    {
       "type":"a",
       "name":"wus.wapp.wii.com",
-      "value":"167.86.108.126"
+      "value":"152.70.198.159"
    }
 ]

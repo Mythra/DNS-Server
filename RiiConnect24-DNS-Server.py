@@ -15,6 +15,7 @@ from dnslib.server import DNSServer
 import socket
 import requests
 import json
+import os
 import sys
 
 def get_platform():
@@ -153,20 +154,27 @@ class Record:
 
 
 ZONES = {}
+argv = sys.argv[1:]
 
-try:
-  get_zones = requests.get("https://raw.githubusercontent.com/Mythra/DNS-Server/master/dns_zones.json")
-except requests.exceptions.Timeout:
-  print("[ERROR] Couldn't load DNS data: connection to GitHub timed out.")
-  print("[ERROR] Are you connected to the Internet?")
-except requests.exceptions.RequestException as e:
-  print("[ERROR] Couldn't load DNS data.")
-  print("[ERROR] Exception: ",e)
-  sys.exit(1)
-try:
-  zones = json.loads(get_zones.text)
-except ValueError as e:
-  print("[ERROR] Couldn't load DNS data: invalid response from server")
+if 'use-local' in argv:
+    print('Using Local DNS source....')
+    with open(os.getcwd() + '/dns_zones.json') as fd:
+      zones = json.load(fd)
+else:
+  print('Using Remote DNS Source....')
+  try:
+    get_zones = requests.get("https://raw.githubusercontent.com/Mythra/DNS-Server/master/dns_zones.json")
+  except requests.exceptions.Timeout:
+    print("[ERROR] Couldn't load DNS data: connection to GitHub timed out.")
+    print("[ERROR] Are you connected to the Internet?")
+  except requests.exceptions.RequestException as e:
+    print("[ERROR] Couldn't load DNS data.")
+    print("[ERROR] Exception: ",e)
+    sys.exit(1)
+  try:
+    zones = json.loads(get_zones.text)
+  except ValueError as e:
+    print("[ERROR] Couldn't load DNS data: invalid response from server")
 
 for zone in zones:
   if zone["type"] == "a":
